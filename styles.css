@@ -83,6 +83,10 @@ body {
     text-decoration: none;
 }
 
+#socialList a::hover {
+    color: rgb(145, 145, 145);
+}
+
 #socialsList svg {
     width: 40px;
     fill: white;
