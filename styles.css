@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#outerWrapper {
+    background-position: top left;
+    background-image: url(Assets/cover.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+    min-width: 100%;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    z-index: -2;
+    transform: translate3d(0, 0, 0);
+}
+
+#bgOverlay {
+    width: 100%;
+    background-attachment: fixed;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    background-color: rgba(9, 5, 16, 0.4);
+}
+
+#navList {
+    font-size: 18px;
+    padding: 50px 0 50px 0;
+    list-style: none;
+    position: relative;
+    text-align: center;
+    top: auto;
+    left: auto;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#navList li {
+    font-weight: 600;
+    letter-spacing: 3px;
+    display: inline;
+    padding: 15px 15px 0;
+}
+
+#navList a {
+    color: white;
+    text-decoration: none;
+}
+
+#banner {
+    text-align: center;
+    font-size: 55px;
+    margin: 250px 0;
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+#socialsList li {
+    font-weight: 600;
+    letter-spacing: 3px;
+    display: inline;
+    padding: 15px 15px 0;
+}
+
+#socialsList a {
+    color: white;
+    text-decoration: none;
+}
+
+#socialsList svg {
+    width: 40px;
+    fill: white;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0 40px 0;
+}
+
+#loremIpsum {
+    height: 100%;
+    text-align: justify;
+    padding: 20px 200px;
+}
+
+#spili {
+    padding: 20px 200px;
+}
