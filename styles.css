@@ -46,15 +46,26 @@ body {
 }
 
 #navList li {
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 3px;
     display: inline;
     padding: 15px 15px 0;
 }
 
 #navList a {
+    transition: .2s;
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+}
+
+#navList a:hover {
     color: white;
     text-decoration: none;
+}
+
+#activeLink a {
+    color: white;
+    font-weight: 700;
 }
 
 #banner {
@@ -83,13 +94,15 @@ body {
     text-decoration: none;
 }
 
-#socialList a::hover {
-    color: rgb(145, 145, 145);
-}
-
 #socialsList svg {
+    transition: .2s;
     width: 40px;
     fill: white;
+}
+
+#socialsList svg:hover {
+    width: 40px;
+    fill: rgb(90, 90, 90);
 }
 
 #title {
