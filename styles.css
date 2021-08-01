@@ -163,7 +163,7 @@ a {
 }
 
 #single {
-    margin: 100px 0 60px 0;
+    margin: 60px 0 60px 0;
     text-align: center;
 }
 
@@ -176,46 +176,61 @@ a {
     margin: 20px;
 }
 
-#date {
-    display: inline-block;
-    font-size: 20px;
+.concert {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    letter-spacing: 1.2px;
+    width: 60%;
+    padding: 25px 0;
+    margin: auto;
     text-align: center;
 }
 
-#concert {
-    width: 60%;
-    margin: auto;
+.top {
+    border-top: 1px solid rgba(128, 128, 128, 0.5);
 }
 
 #date {
+    display: inline-block;
+    font-size: 20px;
     text-align: left;
     width: 20%;
 }
 
 #concertTitle {
-    width: 50%;
+    display: inline-block;
+    text-align: left;
+    font-weight: 500;
+    width: 38%;
     font-size: 20px;
 }
 
 #location {
-    width: 30%;
+    text-align: left;
+    display: inline-block;
+    width: 22%;
     font-size: 20px;
 }
 
 #singleButton {
-    margin: 20px;
     padding: 18px;
     display: block;
     text-align: center;
 }
 
-#button {
+.button {
     padding: 15px;
     border: 3px solid white;
     transition: .2s;
 }
 
-#button:hover {
+.button:hover {
     color: black;
     background-color: white;
+}
+
+.small {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px;
+    border: 2px solid white;
 }
