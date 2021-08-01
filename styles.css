@@ -4,6 +4,11 @@ body {
     color: white;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 #outerWrapper {
     background-position: top left;
     background-image: url(Assets/cover.jpg);
@@ -89,6 +94,10 @@ body {
     bottom: 0;
 }
 
+#socialsList {
+    padding: 0;
+}
+
 #socialsList li {
     display: inline-block;
     padding: 15px 15px 0;
@@ -165,4 +174,48 @@ body {
 #single figcaption {
     font-style: italic;
     margin: 20px;
+}
+
+#date {
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+}
+
+#concert {
+    width: 60%;
+    margin: auto;
+}
+
+#date {
+    text-align: left;
+    width: 20%;
+}
+
+#concertTitle {
+    width: 50%;
+    font-size: 20px;
+}
+
+#location {
+    width: 30%;
+    font-size: 20px;
+}
+
+#singleButton {
+    margin: 20px;
+    padding: 18px;
+    display: block;
+    text-align: center;
+}
+
+#button {
+    padding: 15px;
+    border: 3px solid white;
+    transition: .2s;
+}
+
+#button:hover {
+    color: black;
+    background-color: white;
 }
